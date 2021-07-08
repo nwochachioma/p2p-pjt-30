@@ -1,0 +1,299 @@
+html{
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #F8E7F6;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    position:fixed;
+    z-index:1;
+    background-color: white;
+    top:0;
+    width:100%;
+}
+nav > div > div {
+    color:#9C27B0;
+    font-weight: 800;
+}
+.reSEND{
+    font-size:25px;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    display: block;  
+    width: 73%; 
+    height: 100%;
+    padding:3%;
+    border-radius: 8px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 3px 3px #888888;
+    margin:4% auto;
+}
+.btn:focus{
+    outline: none !important;
+}
+.btn > div{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    text-align: left;
+}
+.first-header {
+    color: #9C27B0;
+    font-size: 1.63rem;
+}
+.first-texts{
+    font-size: 1.13rem;
+}
+span{
+    color: #606060;
+}
+.last-button{
+    width: 25%;
+    padding:1.5%;
+    border:none;
+    background-color: #9C27B0;
+    border-radius: 5px;
+    margin: 2% 37%;
+    text-align:  center;
+}
+.last-button:hover{
+    opacity: 0.9;
+}
+a, a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.header{
+    border-radius: 8px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 3px 3px #888888;
+    width:100%;
+    font-weight: 700;
+    color:#9C27B0;
+    border: none;
+    margin:10px 0;
+}
+.middle-section{
+    width: 50%;
+    margin:0 auto;
+}
+.middle--section{
+    margin-top: 150px;
+}
+.space{
+    padding:5% 0;
+}
+.space > p{
+    font-size:1.14rem;
+    color:#9C27B0;
+    padding:3px 0;
+}
+.header > div {
+    font-size: 1.56rem;
+}
+label{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+[type="text"]{
+    box-shadow: 0px 3px 3px #888888;
+    Width: 626px;
+    Height:65px;
+}
+.input-group-addon{
+    box-shadow: 0px 3px 3px #888888;
+}
+.flex-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 15px;
+}
+.card{
+    height: 544px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    padding:20px 50px;
+    box-shadow: 0px 3px 3px #888888;
+    margin:50px 0;
+}
+.section-header{
+    padding:10px;
+    font-size: 25px;
+    text-align: center;
+}
+.button-pin{
+    text-align: center; 
+    display: inline;
+    margin: 10px 20px 10px 0;
+}
+.pin{
+    flex-direction: row;
+    margin-top: 25px;
+    text-align: center;
+}
+.flex-container > div > div > label{
+    font-size: 20px;
+}
+.user-input{
+    font-size:13px;
+    font-weight: 700;
+}
+.cancel-button{
+    background-color: white;
+    border: 1px solid #9C27B0;
+    color:#9C27B0;
+    padding:20px;
+    border-radius: 5px;
+    width:217px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.send-button{
+    background-color: #9C27B0;
+    color:white;
+    border: none;
+    padding:20px;
+    border-radius: 5px;
+    width:217px;
+    font-weight: 600;
+}
+.send-button:hover, .cancel-button:hover{
+    opacity: 0.9;
+}
+.button-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.request{
+    width: 283.96px;
+    background-color: #F8E7F6;
+    border-radius: 8px;
+    font-weight: 700;
+    height: 40.58px;
+    text-align: center;
+    padding:10px;
+    box-shadow: 0px 3px 3px #888888;
+    margin-right:20px;
+}
+.repayment{
+    width: 283.96px;
+    height: 40.58px;
+    text-align: center;
+    padding:10px;
+}
+.form-control{
+    width: 250px;
+    height: 40.58px
+}
+.last-button-2{
+    width: 50%;
+    padding:3%;
+    border:none;
+    background-color: #9C27B0;
+    border-radius: 5px;
+    margin: 5% 25% ;
+    text-align:  center;
+}
+.last-button-2:hover{
+    opacity: 0.9;
+}
+.fainty > div > div > label, .fainty > div > label{
+    color:#ADADAD;
+    font-weight: 550;
+    padding:20px 0;
+    font-size: 15px;
+}
+.loan-select{
+    background-color: #F3F3F3;
+    border:none;
+    box-shadow: none;
+    color:#ADADAD;
+}
+
+@media screen and (max-width:425px) {
+    .first-header {
+        font-size: 1.3rem;
+    }
+    .first-texts{
+        font-size: 0.7rem;
+    }
+    .last-button{
+        width: 30%;
+        padding:2%;
+        margin: 2% 35%;
+    }
+    .header > div {
+        font-size: 22px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .space > p{
+        font-size:13.5px;
+    }
+    .card{
+        padding:0;
+    }
+    .section-header{
+        padding:10px;
+        font-size: 18px;
+    }
+    .flex-container{
+        display: block;
+    }
+    .flex-children{
+        padding-bottom:5px;
+    }
+    .button-pin{
+        width:10px !important;
+    }
+    .card{
+        height: 750px;
+    }
+    .cancel-button{
+        width: 100%;
+        padding:1%;
+    }
+    .send-button{
+        width: 100px;
+        padding:1%;
+    }
+    .loan-select{
+        width:100%;
+    }
+}
+@media screen and (width:1024px){
+    .card{
+        height: 700px
+    }
+}
+@media screen and (width:768px){
+    .card{
+        height: 800px
+    }
+    .cancel-button{
+        width: 100%;
+        padding:5%;
+    }
+    .send-button{
+        width: 100px;
+        padding:5%;
+    }
+}

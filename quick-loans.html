@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>quick-loans</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <div><img src="Vector.png" alt="logo"></div>
+            <div class="reSEND">reSEND</div>
+        </div>
+        <div class="right-side">
+            <div>Account <img src="Ellipse 25.png" alt="user-picture"></div>
+        </div>
+    </nav>
+    <div class="middle-section middle--section">
+        <button class="header space" disabled>
+            <div>Quick Loans</div>
+        </button>
+        <div class="card">
+            <div class="flex-box">
+                <div class="request">
+                    <p>Request</p>
+                </div>
+                <div class="repayment">
+                    <p>Repayment</p>
+                </div>
+            </div>
+            <div class="fainty">
+                <div>
+                    <div><label for="loan-amount">Enter Loan Amount</label></div>
+                    <div id="loan-amount">N100,000</div>
+                </div>
+                <div>
+                    <label>Select repayment Tenure<br>
+                        <input type="text" list="repayment-tenure" name="repayment-tenure" placeholder="6 months" class="form-control loan-select"  aria-label="repayment-tenure" aria-describedby="basic-addon1">
+                    </label>
+                    <datalist id="repayment-tenure">
+                        <option value="1 month">
+                        <option value="2 months">
+                        <option value="3 months">
+                        <option value="4 months">
+                        <option value="5 months">
+                        <option value="6 months">
+                        <option value="7 months">
+                        <option value="8 months">
+                        <option value="9 months">
+                        <option value="10 months">
+                        <option value="11 months">
+                        <option value="12 months">
+                    </datalist>
+                </div>
+                <div>
+                    <div><label for="tranfer">Transfer To:</label></div>
+                    <div><label for="account-name">Account Name</label></div>
+                    <div class="user-input-loans" id="account-name"></div>
+                    <div><label for="account-number">Account Number</label></div>
+                    <div class="user-input-loans" id="account-number"></div>
+                </div>
+            </div>
+            </div>
+        <a href="#" target="_blank">
+            <button type="button" class="last-button-2">Proceed</button>
+        </a>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
